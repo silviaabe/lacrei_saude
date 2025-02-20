@@ -17,6 +17,12 @@ export const Button = styled.button`
   line-height: 150%;
   font-weight: 700;
   color: var(--logo-color);
+
+  &:hover {
+    background-color: var(--bg-light-hover);
+    cursor: pointer;
+    transition: 0.2s;
+  }
 `
 
 export const ButtonLogin = styled.button`
@@ -31,4 +37,10 @@ export const ButtonLogin = styled.button`
   line-height: 150%;
   font-weight: 700;
   color: var(--background);
+
+  &:hover {
+    background-color: var(--bg-dark-hover);
+    cursor: pointer;
+    transition: 0.2s;
+  }
 `

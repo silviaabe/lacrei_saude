@@ -1,5 +1,7 @@
 :root {
   --background: #ffffff;
+  --bg-light-hover: #DFF2ED;
+  --bg-dark-hover: #007756;
   --logo-color: #018762;
 }
 

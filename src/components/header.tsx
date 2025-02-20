@@ -4,10 +4,6 @@ import styled from "styled-components"
 import { Button, ButtonLogin, Buttons } from "./buttons"
 import { LogoIcon } from "./logo-icon"
 
-interface HeaderProps {
-
-}
-
 const TagHeader = styled.header`
   display: flex;
   align-items: center;
@@ -17,7 +13,7 @@ const TagHeader = styled.header`
   background: linear-gradient(to bottom, #F5FFFB, #FFFFFF);
 `
 
-export function Header(props: HeaderProps) {
+export function Header() {
   return(
     <TagHeader>
       <LogoIcon/>
