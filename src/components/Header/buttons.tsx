@@ -16,7 +16,7 @@ export const Button = styled.button`
   font-size: 18px;
   line-height: 150%;
   font-weight: 700;
-  color: var(--logo-color);
+  color: var(--main-color);
 
   &:hover {
     background-color: var(--bg-light-hover);
@@ -32,7 +32,7 @@ export const ButtonLogin = styled.button`
   padding: 10px 32px;
   gap: 24px;
   border: none;
-  background-color: var(--logo-color);
+  background-color: var(--main-color);
   font-size: 18px;
   line-height: 150%;
   font-weight: 700;

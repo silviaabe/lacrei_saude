@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/header";
+import { Header } from "@/components/Header/header";
+import { Hero } from "@/components/Hero/hero";
 
 const nunito = Nunito ({
   weight: ['400', '600', '700'],
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={nunito.className}>
         <Header/>
+        <Hero />
         {children}
       </body>
     </html>
