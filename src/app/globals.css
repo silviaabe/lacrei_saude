@@ -1,7 +1,10 @@
 :root {
   --background: #ffffff;
+<<<<<<< HEAD
   --bg-light-hover: #DFF2ED;
   --bg-dark-hover: #007756;
+=======
+>>>>>>> c77234bb62c34ea5052d8725b54279ebba19977f
   --logo-color: #018762;
 }
 
