@@ -6,7 +6,7 @@ import { Hero } from "@/components/Hero/hero";
 import { About } from "@/components/About/about";
 import { Know } from "@/components/Know/know";
 
-const nunito = Nunito ({
+const nunito = Nunito({
   weight: ['400', '600', '700'],
   subsets: ["latin"],
 });

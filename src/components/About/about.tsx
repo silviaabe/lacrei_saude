@@ -23,6 +23,8 @@ export const TagWrapper = styled.div`
   padding: 24px 30px;
   background-color: #fff;
   width: 474px;
+  margin-left: -24px;
+  z-index: 2;
 `
 
 export const AboutTitle = styled.h2`
@@ -45,9 +47,9 @@ export const Line = styled.div`
 export const DescriptionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 2.7rem;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 43px;
   position: relative;
 `
 
@@ -95,9 +97,15 @@ export function About() {
           <Line />
         </div>
         <DescriptionWrapper>
-          <Description>O nosso papel é construir a conexão entre as pessoas da comunidade <strong>LGBTQIAPN+</strong> que precisam de atendimento clínico com profissionais da saúde. <br/><br/>
-          Tudo isso com segurança, inclusão e representatividade. <br/><br/>
-          Surgimos da esperança de ter um atendimento clínico qualificado, seguro e empático para todas as pessoas.</Description>                                     
+          <Description>
+            O nosso papel é construir a conexão entre as pessoas da comunidade <strong>LGBTQIAPN+</strong> que precisam de atendimento clínico com profissionais da saúde.
+          </Description>
+          <Description>
+          Tudo isso com segurança, inclusão e representatividade.
+          </Description>
+          <Description>
+          Surgimos da esperança de ter um atendimento clínico qualificado, seguro e empático para todas as pessoas.
+          </Description>                                     
         </DescriptionWrapper>
         <Button>Conhecer</Button>
       </TagWrapper>
