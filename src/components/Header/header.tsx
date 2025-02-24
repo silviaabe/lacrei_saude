@@ -2,6 +2,8 @@
 
 import styled from "styled-components"
 import { Button, ButtonLogin, Buttons } from "./buttons"
+import Image from "next/image"
+import ArrowDown from "./arrow-down.png"
 import { LogoIcon } from "./logo-icon"
 
 const TagHeader = styled.header`
@@ -20,7 +22,9 @@ export function Header() {
       <Buttons>
         <Button>Quem somos</Button>
         <Button>Ajuda</Button>
-        <ButtonLogin>Entrar</ButtonLogin>
+        <ButtonLogin>Entrar
+          <Image src={ArrowDown} alt="" width={24} height={24}/>
+        </ButtonLogin>
       </Buttons>
     </TagHeader>
   )

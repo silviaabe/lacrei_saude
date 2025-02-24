@@ -5,6 +5,7 @@ import { Header } from "@/components/Header/header";
 import { Hero } from "@/components/Hero/hero";
 import { About } from "@/components/About/about";
 import { Know } from "@/components/Know/know";
+import { Footer } from "@/components/Footer/footer";
 
 const nunito = Nunito({
   weight: ['400', '600', '700'],
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Hero />
         <Know />
         <About />
+        <Footer />
         {children}
       </body>
     </html>
