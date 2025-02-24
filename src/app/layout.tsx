@@ -3,6 +3,7 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header/header";
 import { Hero } from "@/components/Hero/hero";
+import { About } from "@/components/About/about";
 
 const nunito = Nunito ({
   weight: ['400', '600', '700'],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={nunito.className}>
         <Header/>
         <Hero />
+        <About />
         {children}
       </body>
     </html>
