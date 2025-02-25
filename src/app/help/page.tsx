@@ -2,7 +2,6 @@
 
 import styled from "styled-components"
 import ArrowRight from "./arrow-right.png"
-import ArrowUp from "./arrow-up.png"
 import ArrowDown from "./arrow-down.png"
 import Image from "next/image"
 
