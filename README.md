@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lacrei Saúde
 
-## Getting Started
+Este é um projeto clone do site oficial da [Lacrei Saúde](https://lacreisaude.com.br/), desenvolvido com Next.js, TypeScript e Styled-Components. O objetivo é criar uma interface de usuário moderna, interativa e responsiva para conectar a comunidade LGBTQIAPN+ a profissionais da saúde, garantindo um atendimento seguro, inclusivo e acolhedor.
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  <img alt="Projeto Lacrei Saúde" src="https://github.com/user-attachments/assets/412e1392-aadc-4dae-8218-c3b95170411e" width="700">
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- <b>Next.js</b>: Framework para aplicações React.
+- <b>TypeScript</b>: Linguagem baseada em JavaScript com tipagem estática.
+- <b>Styled-Components</b>: Biblioteca para estilização de componentes em React.
+- <b>Jest</b>: Framework para testes unitários.
+- <b>Vercel</b>: Plataforma de deploy para aplicações front-end, usada para fazer o deploy contínuo do projeto.
 
-## Learn More
+## Projeto
 
-To learn more about Next.js, take a look at the following resources:
+🚀 [Acesse o projeto finalizado](https://netflix-clone-21s3nsmri-silvia-abes-projects.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Silvia Abe - silviaabebuzatto@gmail.com
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Rodar o projeto localmente
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Siga os passos abaixo para rodar o projeto em sua máquina local:
+
+- Clone o repositório: git clone https://github.com/silviaabe/lacrei_saude.git
+- Instale as dependências: cd nome-do-projeto <br>
+                           npm install
+- Rode o servidor local: npm run dev
+
+O projeto estará disponível em http://localhost:3000.
+
+## Build e Deploy
+
+- Criar o Build de Produção: npm run build
+- Deploy na Vercel: O projeto está configurado para deploy automático na Vercel. Após fazer o push do código para o GitHub, o deploy será feito automaticamente. Caso queira fazer o deploy manualmente, siga os passos na documentação da Vercel.
+
+## Testes
+
+- Este projeto inclui testes unitários utilizando o Jest. Para rodá-los, use: npm run test
+
+## Aprovação do Teste 
+
+- O teste foi aprovado conforme os requisitos e especificações do desafio técnico, garantindo a funcionalidade e a qualidade do código.
