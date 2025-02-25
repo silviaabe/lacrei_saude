@@ -2,10 +2,8 @@
 
 import styled from "styled-components"
 
-export const MainContainer = styled.div`
-  @media (max-width: 1400px) {
-    padding: 48px 80px 64px;
-  }
+export const Container = styled.div`
+  padding: 48px 80px 64px;
 `
 
 export const SectionOne = styled.section`
@@ -193,7 +191,7 @@ export const SectionThreeImage = styled.img`
 
 export default function AboutPage() {
   return (
-    <MainContainer>
+    <Container>
       <SectionOne>
         <LeftSide>
           <div>
@@ -252,6 +250,6 @@ export default function AboutPage() {
         </LeftSideTwo>
         <SectionThreeImage src="https://lacreisaude.com.br/_next/static/media/purpose-image.3e0752bb.png" alt="" />
       </SectionThree>
-    </MainContainer>
+    </Container>
   )
 }
