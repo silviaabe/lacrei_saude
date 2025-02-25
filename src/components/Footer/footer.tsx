@@ -109,21 +109,21 @@ export function Footer() {
       <Line />
       <FooterWrapper>
         <ColumnOne>
-          <Link href="/">
-            <Image src="https://lacreisaude.com.br/_next/static/media/global-logo.e41aea7b.svg" alt="" width={170} height={48}/>
+          <Link href="https://lacreisaude.com.br/">
+            <Image src="https://lacreisaude.com.br/_next/static/media/global-logo.e41aea7b.svg" alt="Logotipo da Lacrei" width={170} height={48}/>
           </Link>
           <Nav>
-            <Link href="https://www.facebook.com/lacrei.saude">
-              <Image src={Facebook} alt="" width={32} height={32}/>
+            <Link href="https://www.facebook.com/lacrei.saude/">
+              <Image src={Facebook} alt="Facebook da Lacrei" width={32} height={32}/>
             </Link>
-            <Link href="https://www.instagram.com/lacrei.saude">
-              <Image src={Instagram} alt="" width={32} height={32}/>
+            <Link href="https://www.instagram.com/lacrei.saude/#">
+              <Image src={Instagram} alt="Instagram da Lacrei" width={32} height={32}/>
             </Link>
-            <Link href="">
-              <Image src={LinkedIn} alt="https://www.linkedin.com/company/lacrei" width={32} height={32}/>
+            <Link href="https://www.linkedin.com/company/lacrei-saude/posts/?feedView=all">
+              <Image src={LinkedIn} alt="Linkedin da Lacrei" width={32} height={32}/>
             </Link>
             <Link href="mailto:contato@lacreisaude.com.br">
-              <Image src={Email} alt="" width={32} height={32}/>
+              <Image src={Email} alt="Email da Lacrei" width={32} height={32}/>
             </Link>
           </Nav>
         </ColumnOne>
@@ -149,10 +149,10 @@ export function Footer() {
             <Title>Saúde</Title>
           </li>
           <li>
-            <Subtitle href="">Buscar atendimento</Subtitle>
+            <Subtitle href="/search">Buscar atendimento</Subtitle>
           </li>
           <li>
-            <Subtitle href="">Oferecer atendimento</Subtitle>
+            <Subtitle href="/offer">Oferecer atendimento</Subtitle>
           </li>
         </ColumnTwo>
         <ColumnTwo>
@@ -160,13 +160,13 @@ export function Footer() {
             <Title>Segurança e Privacidade</Title>
           </li>
           <li>
-            <Subtitle href="">Política de Privacidade</Subtitle>
+            <Subtitle href="#">Política de Privacidade</Subtitle>
           </li>
           <li>
-            <Subtitle href="">Termos de Uso</Subtitle>
+            <Subtitle href="#">Termos de Uso</Subtitle>
           </li>
           <li>
-            <Subtitle href="">Direitos de Titular</Subtitle>
+            <Subtitle href="#">Direitos de Titular</Subtitle>
           </li>
         </ColumnTwo>
       </FooterWrapper>
@@ -175,12 +175,12 @@ export function Footer() {
         <TextWrapper>
           <p>A Lacrei Saúde não oferece tratamento médico emergencial. Em caso de emergência procure o hospital mais próximo.</p>
           <p>Em caso de auxílio psicológico, ligue para 188 (CVV) ou acesse o site
-            <a href=""></a>
+            <a href="#"></a>
           </p>
           <Text>Copyright © 2024 Lacrei Saúde. Todos os direitos reservados. CNPJ: 51.265.351/0001-65</Text>
         </TextWrapper>
         <Button>
-          <Image src={ArrowUp} alt="" width={24} height={24}/>
+          <Image src={ArrowUp} alt="Seta para cima" width={24} height={24}/>
         </Button>
       </FooterWrapper2>
     </TagFooter>
