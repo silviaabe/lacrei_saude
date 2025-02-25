@@ -1,4 +1,4 @@
-const nextJest = require("next/jest"); // Usando require aqui
+import nextJest from "next/jest.js"; // Manter a correção para .js
 
 const createJestConfig = nextJest({ dir: "./" });
 
@@ -8,7 +8,7 @@ const customJestConfig = {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  setupFiles: ['<rootDir>/src/setupTests.js'],
+  setupFiles: ['<rootDir>/src/setupTests.js'], // Corrigido
 };
 
-module.exports = createJestConfig(customJestConfig); // Exporte usando module.exports
+export default createJestConfig(customJestConfig);
