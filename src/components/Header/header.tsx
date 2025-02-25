@@ -4,7 +4,6 @@ import styled from "styled-components"
 import { Button, ButtonLogin, Buttons } from "./buttons"
 import Image from "next/image"
 import ArrowDown from "./arrow-down.png"
-import { LogoIcon } from "./logo-icon"
 import Link from "next/link"
 
 const TagHeader = styled.header`
@@ -20,7 +19,7 @@ export function Header() {
   return(
     <TagHeader>
       <Link href="/">
-        <LogoIcon/>
+        <Image src="https://lacreisaude.com.br/_next/static/media/logo_lacrei_desktop.7ae004ab.svg" alt="Lacrei logo" width={187} height={24}/>
       </Link>
       <Buttons>
         <Link href="/about_us">
@@ -30,7 +29,7 @@ export function Header() {
           <Button>Ajuda</Button>
         </Link>
         <ButtonLogin>Entrar
-          <Image src={ArrowDown} alt="" width={24} height={24}/>
+          <Image src={ArrowDown} alt="Seta para baixo" width={24} height={24}/>
         </ButtonLogin>
       </Buttons>
     </TagHeader>
