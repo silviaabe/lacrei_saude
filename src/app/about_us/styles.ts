@@ -3,7 +3,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  @media (max-width: 1024px) {
+  @media (max-width: 1400px) {
   padding: 48px 80px 64px;
   }
 ` 

@@ -5,7 +5,7 @@ import styled from "styled-components"
 const BackgroundContainer = styled.div`
   width: 100%;
   height: 539px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0.00%, rgba(255, 255, 255, 0.2) 99%), url('https://files.oaiusercontent.com/file-Djw891vBFTySuYeFoc9kJE?se=2025-02-20T18%3A35%3A46Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D86b29094-6815-47cc-9888-7e9e0e1d9c9e.webp&sig=52QINRupO8IWiPMr3zZEXN9VhYEc3psLnSX94XRdBbM%3D');
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.1) 0%), url('https://lacreisaude.com.br/_next/static/media/greetings-banner-image.3ec83257.png');
   background-size: cover; 
   background-position: 20% 30%; 
 `
