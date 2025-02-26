@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-🚀 [Acesse o projeto finalizado](https://netflix-clone-21s3nsmri-silvia-abes-projects.vercel.app/)
+🚀 [Acesse o projeto finalizado](https://lacreisaude-one.vercel.app/)
 
 ## Autor
 
