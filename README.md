@@ -1,6 +1,6 @@
 # Lacrei Saúde
 
-Este é um projeto clone do site oficial da [Lacrei Saúde](https://lacreisaude.com.br/), desenvolvido com Next.js, TypeScript e Styled-Components. O objetivo é criar uma interface de usuário moderna, interativa e responsiva para conectar a comunidade LGBTQIAPN+ a profissionais da saúde, garantindo um atendimento seguro, inclusivo e acolhedor.
+Este é um projeto clone do site oficial da [Lacrei Saúde](https://lacreisaude.com.br/), desenvolvido com Next.js, TypeScript e Styled-Components. O objetivo do pessoal da Lacrei era criar uma interface de usuário moderna, interativa e responsiva para conectar a comunidade LGBTQIAPN+ a profissionais da saúde, garantindo um atendimento seguro, inclusivo e acolhedor.
 
 <br>
 
