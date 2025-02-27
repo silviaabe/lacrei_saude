@@ -5,7 +5,7 @@ Este é um projeto clone do site oficial da [Lacrei Saúde](https://lacreisaude.
 <br>
 
 <p align="center">
-  <img alt="Projeto Lacrei Saúde" src="https://github.com/user-attachments/assets/412e1392-aadc-4dae-8218-c3b95170411e" width="700">
+  <img alt="Projeto Lacrei Saúde" src="https://github.com/user-attachments/assets/609710f6-61f5-40fc-8017-f4eb49e86231" width="700">
 </p>
 
 ## Tecnologias
