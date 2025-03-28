@@ -1,12 +1,13 @@
 import styled from "styled-components"
 
 export const Buttons = styled.div`
-display: flex;
+  display: flex;
   height: 48px;
   gap: 24px;
 `
 
 export const Button = styled.button`
+  font-family: "Manrope", sans-serif;
   height: 100%;
   border-radius: 8px;
   padding: 10px 32px;
