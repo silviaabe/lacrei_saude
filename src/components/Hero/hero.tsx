@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import styled from "styled-components"
 
 const BackgroundContainer = styled.div`
@@ -73,8 +74,12 @@ export function Hero() {
         proporcionando experiências de cuidado <br/>
         seguras e inclusivas.</MainDescription>
         <HeroButtonContainer>
-          <HeroButton>Para pacientes</HeroButton>
-          <HeroButton>Para profissionais</HeroButton>
+          <Link href="/patient">
+            <HeroButton>Para pacientes</HeroButton>
+          </Link>
+          <Link href="/professional">
+            <HeroButton>Para profissionais</HeroButton>
+          </Link>
         </HeroButtonContainer>
       </TagHero>
     </BackgroundContainer>
