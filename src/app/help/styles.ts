@@ -138,6 +138,7 @@ export const BottomButton = styled.button`
   padding: 10px;
   color: #fff;
   font-size: 1.125rem;
+  font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
 
