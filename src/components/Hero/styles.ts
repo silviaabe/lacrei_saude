@@ -27,7 +27,24 @@ export const MainTitle = styled.h1`
   margin-bottom: 1rem;
   margin-top: 2rem;
   color: var(--main-color);
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-top: 0px;
+  }
 ` 
+
+export const Box = styled.div`
+  position: relative;
+
+  @media (max-width: 480px) {
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid rgb(238, 238, 238);
+  }  
+`
 
 export const MainDescription = styled.p`
   font-size: 1.5rem;
@@ -39,30 +56,57 @@ export const MainDescription = styled.p`
   span {
     font-weight: 700;
   }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 `
 
 export const HeroButtonContainer = styled.div`
   display: inline-flex;
   gap: 24px;
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+`
+
+export const ButtonLink = styled.a`
+  text-decoration: none;
+  width: 100%;
 `
 
 export const HeroButton = styled.button`
-  height: 48px;
-  width: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  background-color: rgb(1, 135, 98);
+  height: 3rem;
+  border: 2px solid rgb(1, 135, 98);;
   border-radius: 8px;
-  padding: 2px;
-  border: 2px solid transparent;
-  background-color: var(--main-color);
-  font-size: 18px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
   font-weight: 700;
-  line-height: 150%;
-  letter-spacing: 0.32px;
-  color: var(--background);
+  letter-spacing: 0.02rem;
+  cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.3) 4px 4px 4px;
+  transition: 0.2s;
+  line-height: 27px;
+  width: 13.25rem;
 
   &:hover {
     background-color: var(--bg-dark-hover);
     cursor: pointer;
     transition: 0.2s;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.125rem;
+    width: 100%;
   }
 `

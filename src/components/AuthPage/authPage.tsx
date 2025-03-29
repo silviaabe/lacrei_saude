@@ -22,6 +22,9 @@ export default function AuthPage({ imageSrc }: AuthPageProps) {
             </S.LogoDiv>
             <S.ButtonDiv href="/help">
               <S.HelpButton>Ajuda</S.HelpButton>
+              <Link href="/help">
+                <S.QuestionButton src="https://i.imgur.com/pz6iNik.png" alt="" width={24} height={24}/>
+              </Link>
             </S.ButtonDiv>
           </S.HeaderDiv>
         </S.Header>
@@ -61,11 +64,11 @@ export default function AuthPage({ imageSrc }: AuthPageProps) {
       </S.Container>
       <S.Footer>
         <S.FooterContainer>
-          <div>
+          <S.LogoContainer>
             <Link href="/">
               <Image src="https://paciente.lacreisaude.com.br/_next/static/media/logo-lacrei-saude-2.fe01ece5.svg" alt="" height={48} width={166}/>
             </Link>
-          </div>
+          </S.LogoContainer>
           <S.FooterLeft>
             <S.FooterLinks>
               <S.FooterLink href="https://lacreisaude.com.br/" target="_blank">Lacrei Saúde</S.FooterLink>
@@ -75,20 +78,22 @@ export default function AuthPage({ imageSrc }: AuthPageProps) {
             </S.FooterLinks>
             <S.FooterBottom>
               <S.LacreiInfos>
-                <S.SocialLinks>
-                  <a href="https://www.facebook.com/lacrei.saude/" target="_blank">
-                    <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/facebook.c4e93695.svg" alt="" />
-                  </a>
-                  <a href="https://www.instagram.com/lacrei.saude/#" target="_blank">
-                    <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/instagram.6b226165.svg" alt="" />
-                  </a>
-                  <a href="https://www.linkedin.com/company/lacrei-saude/posts/?feedView=all" target="_blank">
-                    <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/linkedin.a30519e7.svg" alt="" />
-                  </a>
-                  <a href="mailto:suporte@lacreisaude.com.br" target="_blank">
-                    <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/email-icon.6bcf7591.svg" alt="" />
-                  </a>
-                </S.SocialLinks>
+                <S.SocialDiv>
+                  <S.SocialLinks>
+                    <a href="https://www.facebook.com/lacrei.saude/" target="_blank">
+                      <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/facebook.c4e93695.svg" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/lacrei.saude/#" target="_blank">
+                      <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/instagram.6b226165.svg" alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/lacrei-saude/posts/?feedView=all" target="_blank">
+                      <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/linkedin.a30519e7.svg" alt="" />
+                    </a>
+                    <a href="mailto:suporte@lacreisaude.com.br" target="_blank">
+                      <S.SocialImg src="https://paciente.lacreisaude.com.br/_next/static/media/email-icon.6bcf7591.svg" alt="" />
+                    </a>
+                  </S.SocialLinks>
+                </S.SocialDiv>
                 <S.Span>CNPJ: 51.265.351/0001-65</S.Span>
               </S.LacreiInfos>
               <S.FooterButton>

@@ -1,37 +1,33 @@
 "use client"
 
-import styled from "styled-components"
-import { Button, ButtonLogin, Buttons } from "./buttons"
+import * as S from "./styles"
 import Image from "next/image"
 import ArrowDown from "./arrow-down.png"
 import Link from "next/link"
 
-const TagHeader = styled.header`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 24px 112px;
-  width: 100%;
-  background: linear-gradient(to bottom, #F5FFFB, #FFFFFF);
-`
-
 export function Header() {
   return(
-    <TagHeader>
+    <S.TagHeader>
       <Link href="/">
         <Image src="https://lacreisaude.com.br/_next/static/media/logo_lacrei_desktop.7ae004ab.svg" alt="Lacrei logo" width={187} height={24}/>
       </Link>
-      <Buttons>
+      <S.Buttons>
         <Link href="/about_us">
-          <Button>Quem somos</Button>
+          <S.Button>Quem somos</S.Button>
         </Link>
         <Link href="/help">
-          <Button>Ajuda</Button>
+          <S.Button>Ajuda</S.Button>
         </Link>
-        <ButtonLogin>Entrar
+        <S.ButtonLogin>Entrar
           <Image src={ArrowDown} alt="Seta para baixo" width={24} height={24}/>
-        </ButtonLogin>
-      </Buttons>
-    </TagHeader>
+        </S.ButtonLogin>
+      </S.Buttons>
+      <S.ButtonsIcon>
+      <S.QuestionLink href="/help">
+        <S.QuestionButton src="https://i.imgur.com/pz6iNik.png" alt="" width={24} height={24}/>
+      </S.QuestionLink>
+      <S.LoginButton src="https://i.imgur.com/fPddlo5.png" alt="" width={30} height={30}/>
+      </S.ButtonsIcon>
+    </S.TagHeader>
   )
 }

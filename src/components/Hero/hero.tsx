@@ -1,7 +1,6 @@
 "use client"
 
 import * as S from "./styles"
-import Link from "next/link"
 
 export function Hero() {
   return (
@@ -9,18 +8,20 @@ export function Hero() {
       <S.TagHero>
         <S.MainTitle>Olá, você está <br/>
         na Lacrei Saúde!</S.MainTitle>
-        <S.MainDescription>Conectamos pessoas <span>LGBTQIAPN+</span> <br/>
-        com profissionais de saúde qualificados, <br/>
-        proporcionando experiências de cuidado <br/>
-        seguras e inclusivas.</S.MainDescription>
-        <S.HeroButtonContainer>
-          <Link href="/patient">
-            <S.HeroButton>Para pacientes</S.HeroButton>
-          </Link>
-          <Link href="/professional">
-            <S.HeroButton>Para profissionais</S.HeroButton>
-          </Link>
-        </S.HeroButtonContainer>
+        <S.Box>
+          <S.MainDescription>Conectamos pessoas <span>LGBTQIAPN+</span> <br/>
+          com profissionais de saúde qualificados, <br/>
+          proporcionando experiências de cuidado <br/>
+          seguras e inclusivas.</S.MainDescription>
+          <S.HeroButtonContainer>
+            <S.ButtonLink href="/patient">
+              <S.HeroButton>Para pacientes</S.HeroButton>
+            </S.ButtonLink>
+            <S.ButtonLink href="/professional">
+              <S.HeroButton>Para profissionais</S.HeroButton>
+            </S.ButtonLink>
+          </S.HeroButtonContainer>
+        </S.Box>
       </S.TagHero>
     </S.BackgroundContainer>
   )

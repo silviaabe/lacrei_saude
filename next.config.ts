@@ -1,10 +1,12 @@
-// 
+import { NextConfig } from 'next';
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   compiler: {
     styledComponents: true,
   },
+  images: {
+    domains: ['i.imgur.com'],
+  },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

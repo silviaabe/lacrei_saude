@@ -9,7 +9,11 @@ export const Container = styled.div`
   padding: 0px 7.625rem 4rem;
   margin: 0px auto;
   gap: 2rem;
-  background: linear-gradient(#fff 0%, #f5fffb 100%);;
+  background: linear-gradient(#fff 0%, #f5fffb 100%);
+
+  @media (max-width: 850px) {
+    padding: 1.5rem 4rem;
+  }
 `
 
 export const Section = styled.section`
@@ -70,6 +74,11 @@ export const Title = styled.h1`
   font-size: 3rem;
   line-height: 3rem;
   margin: 0.67rem 0px 0px;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+  }
 `
 
 export const Subtitle = styled.p`
@@ -78,6 +87,11 @@ export const Subtitle = styled.p`
   line-height: 2.25rem;
   width: 57.8rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    width: 32rem;
+    line-height: 2rem;
+  }
 `
 
 export const Faq = styled.div`

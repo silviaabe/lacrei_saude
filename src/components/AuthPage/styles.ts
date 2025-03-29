@@ -11,6 +11,14 @@ export const Container = styled.div`
   align-items: center;
   padding: 0px 8.625rem;
   background: linear-gradient(rgb(245, 255, 251) 1.9225rem, rgb(255, 255, 255) calc(15vh)) no-repeat;
+
+  @media (max-width: 640px) {
+    min-height: calc(-340px + 100vh);
+  }
+
+  @media (max-width: 768px) {
+    padding: 0px 1.5rem 4rem;
+  }
 `
 
 export const Header = styled.header`
@@ -30,6 +38,11 @@ export const HeaderDiv = styled.div`
   justify-content: space-between;
   gap: 1rem;
   padding: 1.5rem 0px;
+
+  @media (max-width: 1100px) {
+    padding: 1.5rem 0px;
+    flex-wrap: wrap;
+  }
 `
 
 export const LogoDiv = styled.div`
@@ -50,16 +63,29 @@ export const ImgDiv = styled.a`
   gap: 0.659rem;
   cursor: pointer;
   transition: 0.2s;
+
+  @media (max-width: 640px) {
+    font-size: 1.125rem;
+  }
 `
 
 export const ImgOne = styled.img`
   width: 34px;
   height: 25px;
+
+  @media (max-width: 640px) {
+    display: none;
+  }
 `
 
 export const ImgTwo = styled.img`
   width: 161px;
   height: 20px;
+
+  @media (max-width: 640px) {
+    width: 129px;
+    height: 16px;
+  }
 `
 
 export const ButtonDiv = styled.a`
@@ -70,6 +96,10 @@ export const ButtonDiv = styled.a`
   width: fit-content;
   position: relative;
   text-decoration: none;
+
+  @media (max-width: 1100px) {
+    gap: 1rem;
+  }
 `
 
 export const HelpButton = styled.button`
@@ -95,6 +125,20 @@ export const HelpButton = styled.button`
   &:hover {
     background-color: var(--bg-light-hover);
   }
+
+  @media (max-width: 640px) {
+    display: none;
+  }
+`
+
+export const QuestionButton = styled.img`
+  @media (max-width: 640px) {
+    display: block;
+  }
+
+  @media (min-width: 641px) {
+    display: none;
+  }
 `
 
 export const MainSection = styled.section`
@@ -104,6 +148,11 @@ export const MainSection = styled.section`
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0px;
+  }
 `
 
 export const ContentContainer = styled.div`
@@ -112,6 +161,11 @@ export const ContentContainer = styled.div`
   justify-content: flex-start;
   width: 52%;
   padding: 3rem 0px 5.25rem;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 1.5rem 0px 0px;
+  }
 `
 
 export const Presentation = styled.div`
@@ -126,7 +180,7 @@ export const Title = styled.h2`
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0rem;
-  line-height: 1.2rem;
+  line-height: 1.7rem;
   color: rgb(31, 31, 31);
 `
 
@@ -157,6 +211,10 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    padding-top: 1.5rem;
+  }
 `
 
 export const ContainerInput = styled.div`
@@ -274,6 +332,10 @@ export const Image = styled.img`
   height: auto;
   width: 48%;
   margin: 5.25rem 0px 9.125rem;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const Footer = styled.footer`
@@ -282,6 +344,10 @@ export const Footer = styled.footer`
   padding: 0px 8.625rem 50px;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    padding: 0px 2rem;
+  }
 `
 
 export const FooterContainer = styled.div`
@@ -294,6 +360,18 @@ export const FooterContainer = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   border-top: 1px solid rgb(176, 224, 211);
+
+  @media (max-width: 640px) {
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 0px;
+  }
+`
+
+export const LogoContainer = styled.div`
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const FooterLeft = styled.div`
@@ -304,12 +382,21 @@ export const FooterLeft = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 0px;
+  }
 `
 
 export const FooterLinks = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 export const FooterLink = styled.a`
@@ -324,6 +411,10 @@ export const FooterBottom = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
 `
 
 export const LacreiInfos = styled.div`
@@ -333,6 +424,18 @@ export const LacreiInfos = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 39.5rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+`
+
+export const SocialDiv = styled.div`
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `
 
 export const SocialLinks = styled.div`
@@ -346,12 +449,25 @@ export const SocialLinks = styled.div`
 export const SocialImg = styled.img`
   transition: 0.2s;
   cursor: pointer;
+
+  @media (max-width: 640px) {
+    display: block;
+  }
 `
 
 export const Span = styled.span`
   font-family: "Nunito", sans-serif;
   font-size: 12px;
   color: #515151;
+  margin-right: 16px;
+
+  @media (max-width: 640px) {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 640px) {
+    margin-top: 1rem;
+  }
 `
 
 export const FooterButton = styled.button`
@@ -367,4 +483,13 @@ export const FooterButton = styled.button`
   color: rgb(1, 135, 98);
   transition: 0.2s;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
+
+  @media (max-width: 768px) {
+    align-self: flex-end;
+  }
+
+  @media (max-width: 640px) {
+    padding: 0.3rem;
+    margin-left: 2rem;
+  }
 `

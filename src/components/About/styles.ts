@@ -8,6 +8,11 @@ export const TagAbout = styled.section`
   align-items: center;
   justify-content: center;
   margin: auto auto 48px;
+
+  @media (max-width: 640px) {
+    margin-bottom: 2.5rem;
+    padding: 0px 1.5rem;
+  }
 `
 
 export const Image = styled.img`
@@ -15,6 +20,14 @@ export const Image = styled.img`
   height: 462px;
   object-fit: cover;
   border-radius: 8px;
+
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+
+  @media screen and (max-width: 1300px) {
+    width: 40rem;
+  }
 `
 
 export const TagWrapper = styled.div`
@@ -25,6 +38,18 @@ export const TagWrapper = styled.div`
   width: 474px;
   margin-left: -24px;
   z-index: 2;
+
+  @media (max-width: 480px) {
+    margin: 1rem 0px 0px 0rem;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 90vw;
+  }
+
+  @media (max-width: 1100px) {
+    min-height: 22rem;
+  }
 `
 
 export const AboutTitle = styled.h2`
@@ -32,6 +57,11 @@ export const AboutTitle = styled.h2`
   font-weight: 700;
   line-height: 48px;
   color: #1f1f1f;
+
+  @media (max-width: 640px) {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
 `
 
 export const Line = styled.div`
@@ -42,6 +72,10 @@ export const Line = styled.div`
   background-color: #018762;
   border-radius: 4px;
   margin: 8px auto;
+
+  @media (max-width: 768px) {
+    margin: 0px 17rem 1rem 0px;
+  }
 `
 
 export const DescriptionWrapper = styled.div`
@@ -51,6 +85,10 @@ export const DescriptionWrapper = styled.div`
   margin-top: 16px;
   margin-bottom: 43px;
   position: relative;
+
+  @media (max-width: 480px) {
+    margin-bottom: 2rem;
+  }
 `
 
 export const Description = styled.p`
@@ -88,5 +126,13 @@ export const Button = styled.button`
     background-color: #018762;
     color: #fff;
     transition: ease 0.2s;
+  }
+
+  @media (max-width: 640px) {
+    margin: auto;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `
